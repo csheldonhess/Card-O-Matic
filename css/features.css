@@ -1,0 +1,63 @@
+/* Color picker */
+.colors {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-right: 5px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+#red {
+	background-color: red;
+}
+
+#orange {
+	background-color: orange;
+}
+
+#yellow {
+	background-color: yellow;
+}
+
+#green {
+	background-color: green;
+}
+
+#blue {
+	background-color: blue;
+}
+
+#indigo {
+	background-color: indigo;
+}
+
+#violet {
+	background-color: violet;
+}
+
+/* texture picker */
+.textures {
+	width: 60px;
+	height: 30px;
+	float: left;
+	margin-right: 5px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+#paper {
+	background: url("../images/texture-paper.png");
+}
+
+#swirls {
+	background: url("../images/texture-swirls.png");
+}
+
+#circles {
+	background: url("../images/texture-circles.png");
+}
+
+#cloth {
+	background: url("../images/texture-cloth.png");
+}
