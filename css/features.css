@@ -29,11 +29,11 @@
 }
 
 #indigo {
-	background-color: indigo;
+	background-color: #bf9bf5;
 }
 
 #violet {
-	background-color: violet;
+	background-color: #8F00FF;
 }
 
 /* texture picker */
@@ -60,4 +60,26 @@
 
 #cloth {
 	background: url("../images/texture-cloth.png");
+}
+
+/* making the text pretty */ 
+
+#message-output {
+	padding-top: 150px;
+	font-family: "book antiqua", Lucida, serif;
+	font-size:32px;
+	font-weight:bold;
+	text-align: center;
+}
+
+#recipient-output {
+	padding-top: 20px;
+	font-family: "book antiqua", Lucida, serif;
+	font-size:32px;
+	font-weight:bold;
+	text-align: center;
+}
+
+#text-error {
+	color: red;
 }

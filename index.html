@@ -14,12 +14,12 @@
 
 <body>
 
-<div id='wrapper'>
+<div id="wrapper">
 
 	<h1>Card-o-Matic</h1>
 
 	<!-- Left side with all the controls -->
-	<div id='controls'>
+	<div id="controls">
 	
 		<!-- Color picker -->
 			<h2>Pick a color</h2>
@@ -42,11 +42,15 @@
 						
 		<!-- Message -->	
 			<h2>Pick a message</h2>
-			
+			<!-- Group together radio buttons by giving them a shared name -->
+			<input type="radio" class="messages" name="message" id="birthday"><label for="birthday"> Happy Birthday</label><br>
+			<input type="radio"  class="messages" name="message" id="thanks"><label for="thanks"> Thank You</label><br>
+			<input type="radio" class="messages" name="message" id="congrats"><label for="congrats"> Congratulations</label><br>
+			<input type="radio" class="messages" name="message" id="rockstar"><label for="rockstar"> You're a rockstar</label><br>
 		
 		<!-- Recipient -->	
 			<h2>Dear...</h2>	
-			
+			<input type="text" name="recipient" id="recipient" maxlength="14"><span id="text-error"></span>
 			
 		<!-- Sticker picker -->	
 			<h2>Click a sticker to add</h2>
@@ -55,18 +59,18 @@
 	</div>
 	
 	<!-- Right side with the live preview -->
-	<div id='preview'>
+	<div id="preview">
 	
-		<div id='card-background'>
-			<div id='canvas'>
-				<div id='message-output'></div>
-				<div id='recipient-output'></div>
+		<div id="card-background">
+			<div id="canvas">
+				<div id="message-output"></div>
+				<div id="recipient-output"></div>
 			</div>
 		</div>
 		
 		<!-- Buttons -->
-		<input type='button' id='refresh-btn' value='Start over'>
-		<input type='button' id='print-btn' value='Print'>
+		<input type="button" id="refresh-btn" value="Start over">
+		<input type="button" id="print-btn" value="Print">
 	</div>
 	
 </div>
