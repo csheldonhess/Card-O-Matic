@@ -36,6 +36,10 @@
 	background-color: #8F00FF;
 }
 
+#white {
+	background-color: #FFFFFF;
+}
+
 /* texture picker */
 .textures {
 	width: 60px;
@@ -64,6 +68,14 @@
 
 /* making the text pretty */ 
 
+.messages {
+	cursor: pointer;
+}
+
+label {
+	cursor: pointer;
+}
+
 #message-output {
 	padding-top: 150px;
 	font-family: "book antiqua", Lucida, serif;
@@ -82,4 +94,17 @@
 
 #text-error {
 	color: red;
+}
+
+/* sticker goodness! */
+
+.stickers {
+	cursor: pointer;
+}
+
+.card-sticker { 
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	cursor: move;
 }
